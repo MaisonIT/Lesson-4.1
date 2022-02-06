@@ -1,0 +1,145 @@
+/* Обнуляющий стиль */
+@import url(null.css);
+/* &display=swap */
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@font-face {
+	font-family: SKCynic;
+	src: url("../fonts/SKCynic-Thin.woff2") format("woff2"), url("../fonts/SKCynic-Thin.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: SKCynic;
+	src: url("../fonts/SKCynic-Regular.woff2") format("woff2"), url("../fonts/SKCynic-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: SKCynic;
+	src: url("../fonts/SKCynic-Bold.woff2") format("woff2"), url("../fonts/SKCynic-Bold.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Multicross;
+	src: url("../fonts/Multicross.woff2") format("woff2"), url("../fonts/Multicross.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	font-size: 25px;
+	font-family: "SKCynic", cursive;
+	font-weight: 100;
+	color: rgb(185, 63, 63);
+}
+
+#title {
+	text-shadow: 2px 2px black;
+	font-family: "Yellowtail", cursive;
+	font-weight: 900;
+	font-size: 100px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.title-about {
+	font-family: "SKCynic", cursive;
+	font-weight: 900;
+	text-shadow: 2px 2px #000;
+	font-size: 80px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.block-about > p {
+	color: rgb(12, 247, 3);
+	text-indent: 100px;
+}
+
+p.text-about2 {
+	color: red;
+	font-weight: 400;
+}
+.en {
+	color: #2c0074;
+	font-family: "Yellowtail", cursive;
+}
+.name,
+.name2,
+.name3,
+.name4 {
+	font-family: "Yellowtail", cursive;
+	color: rgba(0, 0, 0, 0.623);
+	text-decoration: underline;
+}
+.error {
+	color: #000;
+	text-decoration: line-through;
+	font-size: 15px;
+}
+.title-story {
+	font-family: "SKCynic", cursive;
+	font-weight: 900;
+	font-size: 50px;
+	text-align: center;
+	text-decoration: underline;
+	color: brown;
+	text-shadow: 2px 2px #000;
+}
+.text-story {
+	font-family: "Paccifico", cursive;
+	font-size: 30px;
+	word-spacing: 10px;
+}
+
+.dev {
+	font-family: "SKCynic", cursive;
+	text-align: center;
+	font-weight: 900;
+	font-size: 80px;
+	color: coral;
+}
+.text-dev {
+	font-family: "Multicross", cursive;
+	color: darkblue;
+	font-size: 30px;
+}
+.title-list {
+	font-family: "SKCynic", cursive;
+	text-decoration: overline;
+	color: darkgoldenrod;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 900;
+}
+.list {
+	font-family: "Paccifico", cursive;
+	color: black;
+	text-align: right;
+	font-size: 30px;
+}
+.character {
+	font-family: "SKCynic", cursive;
+	text-align: center;
+	color: black;
+	font-weight: 900;
+	font-size: 80px;
+	text-shadow: 2px 1px rgba(0, 3, 194, 0.486);
+}
+.text-character {
+	font-family: "Paccifico", cursive;
+	color: darkmagenta;
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+.footer {
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 5px;
+}
